@@ -3,7 +3,9 @@ import java.util.concurrent.BlockingQueue;
 
 import static java.lang.Thread.sleep;
 
-public class Produtor implements IProdutor{
+import java.io.Serializable;
+
+public class Produtor implements IProdutor, Serializable{
 
     BlockingQueue<String> blockingQueue = null;
 
