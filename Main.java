@@ -1,6 +1,9 @@
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
+import produtor.Produtor;
+import consumidor.Consumidor;
+
 public class Main {
     public static void main(String[] args) {
 

@@ -1,11 +1,11 @@
+package produtor;
 import java.util.concurrent.BlockingQueue;
 
 import static java.lang.Thread.sleep;
 
-public class Produtor implements Runnable{
+public class Produtor implements IProdutor{
 
     BlockingQueue<String> blockingQueue = null;
-
 
     public Produtor(BlockingQueue<String> queue) {
         this.blockingQueue = queue;

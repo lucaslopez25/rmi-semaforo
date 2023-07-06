@@ -1,6 +1,7 @@
+package consumidor;
 import java.util.concurrent.BlockingQueue;
 
-public class Consumidor implements Runnable{
+public class Consumidor implements IConsumidor{
 
      BlockingQueue<String> blockingQueue = null;
     public Consumidor(BlockingQueue<String> queue) {
